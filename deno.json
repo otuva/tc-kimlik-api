@@ -4,5 +4,9 @@
     "exclude": ["**/node_modules"],
     "include": [],
     "entrypoint": "main.ts"
-  }
+  },
+  "compilerOptions": {
+    "strict": true
+  },
+  "unstable": ["sloppy-imports"]
 }
